@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(253, 254, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent {
+    width: 70%;
+    max-width: 1010px;
+    min-height: 400px;
+    background-color: rgb(245, 239, 231);
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    /* border: 2px solid rgb(152, 97, 97) */
+}
+
+.left {
+    position: initial;
+    background-color: #E3DFFD;
+    padding: 25px;
+    width: 300px;
+
+}
+
+.right {
+    position: initial;
+    background-color: #FFD4D4;
+    padding: 25px;
+    width: 600px;
+
+}
+
+.image,
+.Contact,
+.Skills,
+.Language,
+.Hobbies,
+.title,
+.Summary,
+.Education,
+.project,
+.certi,
+.declaration {
+    margin-bottom: 20px;
+}
+
+.h2 {
+    background-color: #E6A4B4;
+}
+
+
+#ss {
+    /* border: 2px solid black; */
+    padding: 20px;
+
+}
+
+.image {
+    border: 2px solid black;
+    height: 110px;
+    width: 130px;
+    background-image: url(../resourse/nakul\ pic.jpg);
+    padding-right: 20px;
+    padding-top: 4px;
+    background-size: 130px 120px;
+    border-radius: 25px 40px 10px 40px;
+}
+
+.as {
+
+    align-content: center;
+}
+
+#ss {
+    text-align: center;
+}
+
+
+#hr {
+    width: 150px;
+    border: 1.2px solid black;
+    position: relative;
+    left: 390px;
+}
+
+
+.last {
+    position: relative;
+    left: 400px;
+}

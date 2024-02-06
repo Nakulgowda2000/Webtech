@@ -1,0 +1,40 @@
+body{
+        
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+fieldset{
+    width: 300px;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+#ss{
+    height: 35px;
+    width: 230px;
+}
+
+#we{
+    color: #FF1E00;
+    text-align: center;
+}
+
+#rr{
+    height: 28px;
+    width: 80px;
+}
+body{
+    background-image: url(https://i.pinimg.com/originals/e5/a2/02/e5a2022bfc835ef8c7bb6ff1e88beb8c.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 500px;
+}

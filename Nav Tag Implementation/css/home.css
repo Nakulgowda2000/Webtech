@@ -1,0 +1,61 @@
+body{
+    background-image: linear-gradient(to top left, #FF9209, #FFE7C1, #F3CCF3 ,#E9A8F2 ,#B931FC);
+}
+
+h1{
+/* border: 2px solid green; */
+text-align: center;
+/* height: 0px; */
+}
+
+.parent{
+/* border: 2px solid black; */
+height: 470px;
+}
+.chi{
+/* border: 2px solid black; */
+height: 70px;
+width: 1160px;
+}
+
+.ss{
+/* border: 2px solid black; */
+height: 340px;
+width: 1160px;
+
+}
+section{
+/* border: 2px solid black; */
+height: 370px;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+/* background-image: linear-gradient(to top left, #FF9209, #F3CCF3 ,#E9A8F2 ,#B931FC); */
+/* background-image: url(../resourse/a.webp);
+background-repeat: no-repeat; */
+/* background-size: cover; */
+}
+
+.s1{
+/* border: 2px solid black; */
+height: 190px;
+width: 600px;
+background-image: url(../resourse/ssss.png);
+background-size: 600px,160px;
+background-repeat: no-repeat;
+border-radius: 100px;
+}
+
+.section,#s2{
+/* border: 2px solid black; */
+height: 130px;
+width: 300px;
+background-image: url(../resourse/pvr.jpg);
+background-repeat: no-repeat;
+background-size: 300px,150px;
+background-position: center;
+border-radius: 30px;
+}
+h1{
+color: #F11A7B ;
+}

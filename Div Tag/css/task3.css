@@ -1,0 +1,26 @@
+.parent{
+    /* border: 2px solid black; */
+    height: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: linear-gradient(to top left, #FFC47E, #FFE7C1, #F3CCF3 ,#E9A8F2 ,#DC84F3);
+}
+
+.child{
+    border: 2px solid aqua;
+    height:250px;
+    width: 250px;
+    border-radius: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0px 0px 0px 2px rgb(#AC87C5, #E0AED0, #FF9800);
+}
+
+.child img{
+/* border: 2px solid aqua; */
+height: 250px;
+width: 250px;
+border-radius: 20%;
+}
